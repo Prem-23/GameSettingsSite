@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url(/car1.jpg);
+    background: url(car1.jpg);
     width: 100%;
     background-size: cover;
     background-position: center;
