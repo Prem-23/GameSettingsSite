@@ -8,13 +8,21 @@
 }
 
 body {
-    background: url(/track1.jpg);
     width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 100vh;
     overflow: hidden;
+}
+
+
+/* section */
+
+.container-fluid {
+    width: 100%;
+    background: url(/car1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
 }
 
 
@@ -296,9 +304,9 @@ footer .right-angle .right {
 }
 
 
-/* section */
+/* section - sec-1 */
 
-section {
+.sec-1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -306,7 +314,7 @@ section {
     padding: 50px 0;
 }
 
-section .exp {
+.sec-1 .exp {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -314,13 +322,13 @@ section .exp {
     padding: 0 8px;
 }
 
-section .exp1 {
+.sec-1 .exp1 {
     border: 1px solid rgba(0, 0, 0, 0.4);
     padding: 6px 10px;
     background: rgba(0, 0, 0, 0.4);
 }
 
-section .attend {
+.sec-1 .attend {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -330,39 +338,39 @@ section .attend {
     background: #232324;
 }
 
-section .attend h3 {
+.sec-1 .attend h3 {
     text-transform: uppercase;
     color: white;
     transform: translateX(50%);
     letter-spacing: 3px;
 }
 
-section .attend i {
+.sec-1 .attend i {
     font-size: 27px;
     color: white;
     padding: 0 10px 0 0;
 }
 
-section .daily-race .range {
+.sec-1 .daily-race .range {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-section .daily-race .range:nth-child(1) {
+.sec-1 .daily-race .range:nth-child(1) {
     padding: 8px 0 0 0;
 }
 
-section .daily-race .range h4 {
+.sec-1 .daily-race .range h4 {
     text-transform: uppercase;
     color: white;
 }
 
-section .daily-race .range:nth-child(1) h4:last-child {
+.sec-1 .daily-race .range:nth-child(1) h4:last-child {
     color: rgb(0, 102, 255);
 }
 
-section .offers {
+.sec-1 .offers {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -372,14 +380,14 @@ section .offers {
     width: 180px;
 }
 
-section .offers #time {
+.sec-1 .offers #time {
     color: #ececec;
     padding: 10px 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
 
-section .offers .big-offers {
+.sec-1 .offers .big-offers {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -387,20 +395,20 @@ section .offers .big-offers {
     padding: 0px 0 10px 0;
 }
 
-section .offers .big-offers h4 {
+.sec-1 .offers .big-offers h4 {
     text-transform: uppercase;
     color: white;
 }
 
-section .offers .big-offers h4:last-child {
+.sec-1 .offers .big-offers h4:last-child {
     color: rgb(62, 128, 226);
 }
 
-section {
+.sec-1 {
     flex-direction: column;
 }
 
-section .double {
+.sec-1 .double {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -408,7 +416,7 @@ section .double {
     padding: 40px 10px 0 10px;
 }
 
-section .part {
+.sec-1 .part {
     display: flex;
     flex-direction: column;
     width: 250px;
@@ -416,7 +424,7 @@ section .part {
     background: rgba(0, 0, 0, 0.3);
 }
 
-section .speed {
+.sec-1 .speed {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -425,52 +433,52 @@ section .speed {
     background: #232324;
 }
 
-section .speed h3 {
+.sec-1 .speed h3 {
     color: white;
     text-align: center;
 }
 
-section .speed .star {
+.sec-1 .speed .star {
     text-align: center;
     font-size: 11px;
     color: gold;
 }
 
-section .speed .caret {
+.sec-1 .speed .caret {
     font-size: 30px;
     color: white;
 }
 
-section .part .car .cars {
+.sec-1 .part .car .cars {
     padding: 10px 0;
     width: 100%;
     text-align: center;
     color: #ececec;
 }
 
-section .part .car .duration {
+.sec-1 .part .car .duration {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-section .part .car .duration h3 {
+.sec-1 .part .car .duration h3 {
     color: white;
     text-transform: uppercase;
 }
 
-section .part .car .duration h3:last-child {
+.sec-1 .part .car .duration h3:last-child {
     color: #acacac;
 }
 
-section .part .car .car-level {
+.sec-1 .part .car .car-level {
     width: 100%;
     height: 3px;
     position: relative;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-section .part .car .car-level::after {
+.sec-1 .part .car .car-level::after {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -478,7 +486,7 @@ section .part .car .car-level::after {
     background-color: rgb(0, 102, 255);
 }
 
-section .part2 .premium {
+.sec-1 .part2 .premium {
     width: 170px;
     display: flex;
     flex-direction: column;
@@ -488,24 +496,24 @@ section .part2 .premium {
     padding: 8px 6px;
 }
 
-section .part2 .premium h4 {
+.sec-1 .part2 .premium h4 {
     color: white;
     text-transform: uppercase;
 }
 
-section .part2 .premium h4:last-child {
+.sec-1 .part2 .premium h4:last-child {
     color: gold;
     text-transform: uppercase;
 }
 
-section .part2 .container {
+.sec-1 .part2 .container {
     width: 180px;
     height: 95px;
     background-color: rgba(0, 0, 0, 0.4);
     overflow: hidden;
 }
 
-section .part2 .container .video {
+.sec-1 .part2 .container .video {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -513,7 +521,7 @@ section .part2 .container .video {
     padding: 0 10px;
 }
 
-section .part2 .container .video:nth-child(2)::after {
+.sec-1 .part2 .container .video:nth-child(2)::after {
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     content: '';
@@ -531,43 +539,46 @@ section .part2 .container .video:nth-child(2)::after {
     }
 }
 
-section .part2 .container .video:nth-child(1) {
+.sec-1 .part2 .container .video:nth-child(1) {
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
     background: #232324;
 }
 
-section .part2 .container .video i {
+.sec-1 .part2 .container .video i {
     color: white;
     font-size: 20px;
 }
 
-section .part2 .container .video h4 {
+.sec-1 .part2 .container .video h4 {
     color: white;
     text-transform: uppercase;
     padding: 6px 0 6px 0;
 }
 
-section .part2 .container .video h2,
-section .part2 .container .video h3 {
+.sec-1 .part2 .container .video h2,
+.sec-1 .part2 .container .video h3 {
     color: white;
     transform: translateX(-50%);
     text-align: center;
 }
 
-section .part2 .container .video .free-dollar h2 {
+.sec-1 .part2 .container .video .free-dollar h2 {
     color: #00ab66;
 }
 
-section .part2 .container .video .free-gold h2 {
+.sec-1 .part2 .container .video .free-gold h2 {
     color: gold;
 }
 
 
-/* section-2 */
+/* section sec-2 */
 
 .sec-2 {
     width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     backdrop-filter: blur(2px);
 }
 
@@ -652,8 +663,8 @@ section .part2 .container .video .free-gold h2 {
 .sec-2 .partition .right-1 {
     color: #cac6c6;
     font-size: 25px;
-    animation: right .5s ease infinite;
-    animation-duration: 1s;
+    animation: right .4s ease infinite;
+    animation-duration: 1.2s;
 }
 
 @keyframes right {
@@ -673,6 +684,7 @@ section .part2 .container .video .free-gold h2 {
     }
 }
 
-.hide {
+.hide,
+.okay {
     display: none;
 }
