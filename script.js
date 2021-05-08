@@ -4,6 +4,7 @@ let sec1 = document.querySelector('.sec-1');
 let footer = document.querySelector('footer');
 let closeBtn = document.querySelector('.close');
 let show = document.querySelector('.show');
+let okay = document.querySelector('.okay');
 let okText = document.querySelector('.ok-text');
 
 logo.onclick = function() {
@@ -11,6 +12,7 @@ logo.onclick = function() {
     sec1.classList.toggle('hide');
     footer.classList.toggle('hide');
     show.classList.toggle('hide');
+    okay.classList.remove('okay');
 }
 
 closeBtn.onclick = function() {
@@ -18,6 +20,7 @@ closeBtn.onclick = function() {
     sec1.classList.remove('hide');
     footer.classList.remove('hide');
     show.classList.remove('hide');
+    okay.classList.add('okay');
 }
 
 okText.onclick = function() {
@@ -25,6 +28,7 @@ okText.onclick = function() {
     sec1.classList.remove('hide');
     footer.classList.remove('hide');
     show.classList.remove('hide');
+    okay.classList.add('okay');
 }
 
 
