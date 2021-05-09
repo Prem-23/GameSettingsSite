@@ -23,17 +23,20 @@ body .carImg {
 
 /* section */
 
-.container-fluid {
+
+/* .container-fluid {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-}
+} */
 
 
 /* header */
 
 header {
+    position: absolute;
+    top: 0;
     width: 100%;
     display: flex;
     height: 60px;
@@ -312,6 +315,8 @@ footer .right-angle .right {
 /* section - sec-1 */
 
 .sec-1 {
+    position: absolute;
+    top: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -524,6 +529,7 @@ footer .right-angle .right {
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
+    z-index: 10;
 }
 
 .sec-1 .part2 .container .video:nth-child(2)::after {
@@ -579,6 +585,9 @@ footer .right-angle .right {
 /* section sec-2 */
 
 .sec-2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
     height: 100vh;
     display: flex;
